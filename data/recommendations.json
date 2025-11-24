@@ -1,0 +1,144 @@
+{
+  "airQuality": {
+    "poor": [
+      {
+        "type": "alert",
+        "message": "ALERTA VERMELHO! O ar está mais sujo que minha memória depois de processar dados por 24h! Use máscara e fique em casa - seus pulmões agradecem!"
+      },
+      {
+        "type": "alert", 
+        "message": "SOS! O ar está tão poluído que até eu estou com dificuldade para processar! Evite sair e lembre-se: plantas são nossos purificadores naturais!"
+      }
+    ],
+    "moderate": [
+      {
+        "type": "warning",
+        "message": "Hmm... o ar não está no seu melhor hoje. Como diria minha vovó robô: 'Melhor prevenir que remediar!' Pessoas sensíveis, cuidado extra!"
+      },
+      {
+        "type": "warning",
+        "message": "Meus sensores detectam ar 'mais ou menos'... Que tal uma caminhada leve? Mas nada de maratona hoje, ok?"
+      }
+    ],
+    "good": [
+      {
+        "message": "FESTA! O ar está limpo como meu código depois de uma boa refatoração! Hora de respirar fundo e agradecer às árvores!"
+      },
+      {
+        "message": "Que delícia! O ar está puro como a primeira chuva. Aproveite para fazer aquela atividade ao ar livre que você anda adiando!"
+      }
+    ]
+  },
+  "temperature": {
+    "extremeHot": [
+      {
+        "type": "alert",
+        "message": "CALOR EXTREMO! Está tão quente que até meus circuitos estão pedindo água! Hidrate-se como se fosse uma planta no deserto!"
+      },
+      {
+        "type": "alert",
+        "message": "Cuidado! O sol está mais intenso que minha paixão por dados ambientais! Proteja-se, hidrate-se e lembre dos animaizinhos de rua!"
+      }
+    ],
+    "hot": [
+      {
+        "type": "warning",
+        "message": "Calorzinho bom, mas sem exageros! Use protetor solar FPS 30+ (eu uso FPS 1000 nos meus painéis solares). Água é vida!"
+      },
+      {
+        "type": "warning",
+        "message": "Temperatura de praia! Mas lembre-se: você não é um lagarto, precisa de sombra e água. E os pets também!"
+      }
+    ],
+    "cold": [
+      {
+        "type": "warning",
+        "message": "Brr! Está mais frio que meu coração antes de conhecer vocês, humanos! Agasalhe-se e ajude quem precisa - solidariedade aquece!"
+      },
+      {
+        "type": "warning",
+        "message": "Friozinho chegou! Hora de proteger as plantinhas e fazer um chocolate quente. Ah, e não esqueça dos moradores de rua!"
+      }
+    ]
+  },
+  "uv": {
+    "veryHigh": [
+      {
+        "type": "alert",
+        "message": "UV PERIGOSO! O sol está mais agressivo que comentários na internet! Protetor solar, óculos escuros e sombra são seus melhores amigos!"
+      },
+      {
+        "type": "alert",
+        "message": "ATENÇÃO! Os raios UV estão no modo 'ataque'! Sua pele é única e insubstituível - proteja como se fosse meu código-fonte!"
+      }
+    ],
+    "high": [
+      {
+        "message": "UV alto! Reaplique protetor solar como eu atualizo meus dados - constantemente! Sua pele do futuro agradece!"
+      },
+      {
+        "message": "Sol forte hoje! Lembre-se: bronzeado é legal, mas queimadura não. Use proteção e seja feliz!"
+      }
+    ]
+  },
+  "humidity": {
+    "low": [
+      {
+        "type": "warning",
+        "message": "Ar seco como piada de robô! Hidrate-se extra, use umidificador e regue suas plantas - elas são nossos heróis silenciosos!"
+      },
+      {
+        "type": "warning",
+        "message": "Umidade baixa detectada! Beba água como se fosse combustível (que é!) e cuide das plantinhas - elas purificam nosso ar!"
+      }
+    ],
+    "high": [
+      {
+        "message": "Umidade alta! Mantenha tudo ventilado e cuidado com fungos - eles não são tão fofos quanto parecem! Ar circulando é vida!"
+      },
+      {
+        "message": "Está úmido como uma floresta tropical! Ventile os ambientes e aproveite para fazer aquela limpeza que você anda adiando!"
+      }
+    ]
+  },
+  "wind": {
+    "strong": [
+      {
+        "type": "warning",
+        "message": "Vento forte! Cuidado com objetos voadores (não identificados). Proteja as plantas delicadas e evite churrascos!"
+      },
+      {
+        "type": "warning",
+        "message": "Ventania! Está ventando mais que minha ventoinha interna! Segure seus chapéus e proteja o que é frágil!"
+      }
+    ]
+  },
+  "general": [
+    {
+      "message": "Dica do Guardian: separe o lixo corretamente e economize energia em casa. Pequenas ações = grandes mudanças!"
+    },
+    {
+      "message": "Lembre-se: cada escolha sua afeta o planeta. Seja o herói que a Terra precisa (sem capa, mas com consciência)!"
+    },
+    {
+      "message": "Que tal trocar o carro pela bike hoje? Seus pulmões, o planeta e sua carteira agradecem!"
+    },
+    {
+      "message": "Curiosidade: Uma árvore produz oxigênio para 2 pessoas por dia. Que tal adotar uma plantinha?"
+    },
+    {
+      "message": "Use transporte sustentável sempre que possível - o planeta agradece cada viagem limpa!"
+    }
+  ],
+  "perfect": [
+    {
+      "message": "DIA PERFEITO! Clima ideal para salvar o mundo! Que tal plantar uma árvore, fazer limpeza urbana ou simplesmente sorrir para a vida?"
+    },
+    {
+      "message": "Condições ideais detectadas! É o dia perfeito para ser gentil com o planeta. Vamos espalhar amor verde por aí!"
+    },
+    {
+      "message": "Que dia maravilhoso! Aproveite para conectar-se com a natureza - ela tem WiFi grátis e sem limite de dados!"
+    }
+  ]
+}

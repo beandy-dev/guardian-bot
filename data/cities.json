@@ -1,0 +1,138 @@
+{
+  "sao-paulo": {
+    "name": "São Paulo",
+    "weather": {
+      "temp": 25,
+      "condition": "sunny",
+      "description": "Ensolarado",
+      "humidity": 65,
+      "wind": 12,
+      "uv": "moderado"
+    },
+    "airQuality": {
+      "status": "ruim",
+      "pm25": 15,
+      "pm10": 25,
+      "o3": 45
+    }
+  },
+  "rio-janeiro": {
+    "name": "Rio de Janeiro",
+    "weather": {
+      "temp": 32,
+      "condition": "hot",
+      "description": "Muito quente",
+      "humidity": 78,
+      "wind": 8,
+      "uv": "alto"
+    },
+    "airQuality": {
+      "status": "moderado",
+      "pm25": 35,
+      "pm10": 45,
+      "o3": 65
+    }
+  },
+  "brasilia": {
+    "name": "Brasília",
+    "weather": {
+      "temp": 22,
+      "condition": "sunny",
+      "description": "Perfeito!",
+      "humidity": 55,
+      "wind": 15,
+      "uv": "moderado"
+    },
+    "airQuality": {
+      "status": "bom",
+      "pm25": 12,
+      "pm10": 20,
+      "o3": 40
+    }
+  },
+  "salvador": {
+    "name": "Salvador",
+    "weather": {
+      "temp": 29,
+      "condition": "sunny",
+      "description": "Sol forte",
+      "humidity": 82,
+      "wind": 18,
+      "uv": "muito alto"
+    },
+    "airQuality": {
+      "status": "bom",
+      "pm25": 18,
+      "pm10": 28,
+      "o3": 42
+    }
+  },
+  "curitiba": {
+    "name": "Curitiba",
+    "weather": {
+      "temp": 16,
+      "condition": "rainy",
+      "description": "Chuva leve",
+      "humidity": 88,
+      "wind": 22,
+      "uv": "baixo"
+    },
+    "airQuality": {
+      "status": "bom",
+      "pm25": 10,
+      "pm10": 18,
+      "o3": 35
+    }
+  },
+  "manaus": {
+    "name": "Manaus",
+    "weather": {
+      "temp": 35,
+      "condition": "hot",
+      "description": "Muito quente e úmido",
+      "humidity": 95,
+      "wind": 5,
+      "uv": "muito alto"
+    },
+    "airQuality": {
+      "status": "bom",
+      "pm25": 8,
+      "pm10": 15,
+      "o3": 30
+    }
+  },
+  "porto-alegre": {
+    "name": "Porto Alegre",
+    "weather": {
+      "temp": 18,
+      "condition": "cloudy",
+      "description": "Parcialmente nublado",
+      "humidity": 70,
+      "wind": 20,
+      "uv": "moderado"
+    },
+    "airQuality": {
+      "status": "moderado",
+      "pm25": 28,
+      "pm10": 38,
+      "o3": 55
+    }
+  },
+  "recife": {
+    "name": "Recife",
+    "weather": {
+      "temp": 30,
+      "condition": "sunny",
+      "description": "Ensolarado e quente",
+      "humidity": 85,
+      "wind": 14,
+      "uv": "alto"
+    },
+    "airQuality": {
+      "status": "bom",
+      "pm25": 20,
+      "pm10": 30,
+      "o3": 48
+    }
+  }
+}

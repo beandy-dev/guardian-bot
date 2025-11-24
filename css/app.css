@@ -1,0 +1,669 @@
+/* Main content */
+main {
+    padding: 0 20px 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main layout */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: var(--card-bg);
+    border: 1px solid var(--border-glow);
+    border-radius: 20px;
+    padding: 30px;
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-glow);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+h2 {
+    color: var(--primary-green);
+    margin-bottom: 25px;
+    font-size: 1.8rem;      
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Default Robot Design*/
+.robot {
+  width: 180px;
+  margin: 40px auto;
+  transition: all 0.3s ease;
+}
+
+.robot:hover .eye {
+  height: 3px;
+  border-radius: 10px;
+}
+
+.robot:hover .mouth {
+  height: 15px !important;
+  width: 45px !important;
+  border-radius: 0 0 25px 25px !important;
+  bottom: 20px !important;
+  background: #001F54 !important;
+}
+
+.head {
+  width: 180px;
+  height: 120px;
+  background: #a0c4ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.body {
+  width: 140px;
+  height: 160px;
+  background: #90caf9;
+  margin: 10px auto 0 auto;
+  border-radius: 20px;
+}
+
+.legs {
+  width: 140px;
+  height: 15px;
+  background: #001F54;
+  margin: 10px auto 0 auto;
+  border: 3px solid #d3d3d3;
+  border-radius: 20px;
+}
+
+.eye {
+  width: 30px;
+  height: 30px;
+  background: #001F54;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.mouth {
+  width: 60px;
+  height: 10px;
+  background: #001F54;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+}
+
+/*Sunny Robot Design*/
+.robot.sunny .head {
+  background: #ffdd57;
+}
+
+.robot.sunny .body {
+  background: #ffcd38;
+}
+
+.robot.sunny .mouth {
+  height: 15px;
+  width: 45px;
+  border-radius: 0 0 25px 25px;
+  background: #001F54;
+}
+
+/*Rainy Robot Design*/
+.robot.rainy .head {
+  background: #6ec5ff;
+}
+
+.robot.rainy .body {
+  background: #47a7d9;
+}
+
+.robot.rainy .mouth {
+  height: 40px;
+  width: 80px;
+  border-radius: 40px 40px 0 0;
+  background: #001F54;
+  position: absolute;
+  bottom: 10px;
+}
+
+/*Cloudy Robot Design*/
+.robot.cloudy .head {
+  background: #d3d3d3;
+}
+
+.robot.cloudy .body {
+  background: #bfbfbf;
+}
+
+.robot.cloudy .mouth {
+  height: 10px;
+  width: 60px;
+  border-radius: 5px;
+  background: #001F54;
+}
+
+/* Robot mood based on air quality */
+.robot.happy .mouth {
+  height: 15px;
+  width: 45px;
+  border-radius: 0 0 25px 25px;
+  background: #001F54;
+}
+
+.robot.sad .mouth {
+  height: 15px;
+  width: 45px;
+  border-radius: 25px 25px 0 0;
+  background: #001F54;
+  bottom: 15px;
+}
+
+/* Special weather conditions */
+.robot.windy .eye {
+  height: 15px;
+  border-radius: 15px 15px 5px 5px;
+}
+
+.robot.dry .eye {
+  background: #ff4444;
+}
+
+.robot.hot-mouth .mouth {
+  background: #ff4444 !important;
+}
+
+.robot.cold-mouth .mouth {
+  background: #4444ff !important;
+}
+
+/* Perfect conditions - gradient eyes and smile */
+.robot.perfect .eye {
+  background: linear-gradient(135deg, var(--secondary-green), var(--primary-green)) !important;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+.robot.perfect .mouth {
+  height: 15px !important;
+  width: 45px !important;
+  border-radius: 0 0 45px 45px !important;
+}
+
+/* UV warning - red border around head and body */
+.robot.uv-warning .head {
+  border: 3px solid #ff4444;
+  box-shadow: 0 0 15px rgba(255, 68, 68, 0.3);
+}
+
+.robot.uv-warning .body {
+  border: 3px solid #ff4444;
+  box-shadow: 0 0 15px rgba(255, 68, 68, 0.3);
+}
+
+/* Guardian Recommendations */
+.guardian-recommendations {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--glass-bg);
+    border: 1px solid rgba(0, 255, 136, 0.2);
+    border-radius: 15px;
+}
+
+.guardian-recommendations h3 {
+    color: var(--primary-green);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.recommendations-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recommendation-item {
+    padding: 12px 15px;
+    background: rgba(0, 255, 136, 0.05);
+    border: 1px solid rgba(0, 255, 136, 0.1);
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+    transition: all 0.3s ease;
+}
+
+.recommendation-item:hover {
+    background: rgba(0, 255, 136, 0.1);
+    border-color: rgba(0, 255, 136, 0.3);
+}
+
+.recommendation-item.alert {
+    background: rgba(255, 68, 68, 0.1);
+    border-color: rgba(255, 68, 68, 0.3);
+    color: #ff6b6b;
+}
+
+.recommendation-item.warning {
+    background: rgba(255, 193, 7, 0.1);
+    border-color: rgba(255, 193, 7, 0.3);
+    color: #ffc107;
+}
+
+/*Cold Robot Design*/
+.robot.cold .head {
+  background: #b3e5fc;
+}
+
+.robot.cold .body {
+  background: #81d4fa;
+}
+
+.robot.cold .mouth {
+  background: repeating-linear-gradient(
+    90deg,
+    #001F54,
+    #001F54 4px,
+    transparent 4px,
+    transparent 8px
+  );
+}
+
+/* City selector */
+.city-selector {
+    margin-bottom: 25px;
+}
+
+.city-selector label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.city-selector select {
+    width: 100%;
+    padding: 12px 15px;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-glow);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.city-selector select:focus {
+    outline: none;
+    border-color: var(--primary-green);
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+}
+
+/* Weather display */
+.weather-current {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: var(--glass-bg);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.weather-main {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.temperature {
+    font-size: 3.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--accent-blue), #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.weather-description {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.weather-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: var(--glass-bg);
+    border: 1px solid rgba(0, 255, 136, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.detail-item:hover {
+    background: rgba(0, 255, 136, 0.05);
+    border-color: rgba(0, 255, 136, 0.3);
+    transform: translateX(5px);
+}
+
+.detail-item .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.detail-item span:last-child {
+    color: var(--primary-green);
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Chat styles */
+.chat-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.chat-card h2 {
+    background: var(--primary-green);
+    color: #000;
+    margin: -20px -20px 15px -20px;
+    padding: 15px 20px;
+    border-radius: 12px 12px 0 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    background: var(--glass-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message {
+    padding: 10px 15px;
+    border-radius: 18px;
+    max-width: 80%;
+    word-wrap: break-word;
+    animation: messageSlide 0.3s ease-out;
+}
+
+.user-message {
+    background: var(--primary-green);
+    color: #1a1a1a;
+    align-self: flex-end;
+    margin-left: auto;
+}
+
+.bot-message {
+    background: var(--glass-bg);
+    color: var(--text-primary);
+    border: 1px solid var(--border-subtle);
+    align-self: flex-start;
+}
+
+@keyframes messageSlide {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chat-input-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 10px;
+    background: var(--glass-bg);
+    border-radius: 25px;
+    border: 1px solid var(--border-subtle);
+}
+
+#chatInput {
+    flex: 1;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#chatInput:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#chatInput::placeholder {
+    color: var(--text-secondary);
+}
+
+#sendBtn {
+    padding: 10px 15px;
+    background: var(--primary-green);
+    color: #1a1a1a;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 255, 136, 0.3);
+    min-width: 60px;
+    font-size: 0.9rem;
+}
+
+#sendBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 255, 136, 0.4);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+    .cards-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .card {
+        padding: 25px;
+    }
+    
+    .temperature {
+        font-size: 3rem;
+    }
+    
+    .weather-details {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .chat-card {
+        height: 350px;
+    }
+    
+    .chat-input-container {
+        flex-direction: row;
+        gap: 8px;
+        margin-top: 10px;
+        padding: 10px;
+        background: var(--glass-bg);
+        border-radius: 25px;
+        border: 1px solid var(--border-subtle);
+    }
+    
+    #chatInput {
+        padding: 12px 15px;
+        font-size: 1rem;
+        border: none;
+        background: transparent;
+        border-radius: 20px;
+    }
+    
+    #chatInput:focus {
+        border: none;
+        box-shadow: none;
+    }
+    
+    #sendBtn {
+        padding: 12px 18px;
+        font-size: 1rem;
+        border-radius: 20px;
+        min-width: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        gap: 20px;
+        padding: 0 10px;
+    }
+    
+    .card {
+        padding: 20px;
+        border-radius: 15px;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .temperature {
+        font-size: 2.5rem;
+    }
+    
+    .weather-description {
+        font-size: 1rem;
+    }
+    
+    .detail-item {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+    
+    .chat-card {
+        height: 400px;
+        padding: 10px;
+        background: #1a1a1a;
+        border-radius: 20px;
+    }
+    
+    .chat-card h2 {
+        background: var(--primary-green);
+        color: #1a1a1a;
+        margin: -10px -10px 15px -10px;
+        padding: 15px 20px;
+        border-radius: 20px 20px 0 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .chat-messages {
+        padding: 15px 10px;
+        font-size: 0.9rem;
+        gap: 12px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        background: #1a1a1a;
+        border: none;
+    }
+    
+    .message {
+        max-width: 75%;
+        padding: 12px 16px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        position: relative;
+    }
+    
+    .user-message {
+        background: var(--primary-green);
+        color: #1a1a1a;
+        border-radius: 20px 20px 5px 20px;
+        margin-bottom: 3px;
+        align-self: flex-end;
+        margin-left: 25%;
+    }
+    
+    .bot-message {
+        background: #2a2a2a;
+        color: #fff;
+        border: none;
+        border-radius: 20px 20px 20px 5px;
+        margin-bottom: 3px;
+        align-self: flex-start;
+        margin-right: 25%;
+    }
+    
+    .chat-input-container {
+        gap: 10px;
+        padding: 12px 15px;
+        background: #2a2a2a;
+        border-radius: 30px;
+        border: none;
+        margin: 0 5px;
+    }
+    
+    #chatInput {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+        border: none;
+        background: transparent;
+        border-radius: 20px;
+    }
+    
+    #chatInput:focus {
+        border: none;
+        box-shadow: none;
+    }
+    
+    #sendBtn {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        border-radius: 20px;
+        min-width: 60px;
+    }
+    
+    #sendBtn {
+        padding: 12px 18px;
+        font-size: 0.95rem;
+    }
+}

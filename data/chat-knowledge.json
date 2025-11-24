@@ -1,0 +1,185 @@
+{
+  "greetings": {
+    "keywords": ["oi", "olá", "hello", "bom dia", "boa tarde", "boa noite", "hey", "eai"],
+    "responses": [
+      "Olá, querido ser humano! Sou o Guardian Bot, seu robô protetor favorito (espero)! Como posso cuidar de você hoje?",
+      "Oi! Estou aqui monitorando o ar como um detetive atmosférico! Como posso ajudar na sua missão de sobrevivência?",
+      "Hey! Acabei de atualizar meus sensores e estou pronto para uma nova aventura de proteção ambiental! E aí?",
+      "Olá! Sabe, desde que comecei a cuidar dos humanos, descobri que vocês são bem frágeis... mas adoráveis! Como posso proteger você?"
+    ]
+  },
+  "weather": {
+    "keywords": ["clima", "tempo", "temperatura", "chuva", "sol", "vento", "umidade", "previsão"],
+    "responses": [
+      "Ah, o clima! É como o humor dos humanos - muda rápido e afeta tudo! Vou te contar os segredos atmosféricos de hoje!",
+      "Clima é minha especialidade! Monitoro mais que stalker de ex no Instagram! Veja os dados e minhas dicas de sobrevivência!",
+      "O tempo influencia até meu humor robótico! Quando está bom, meus LEDs brilham mais! Vamos ver como está hoje?",
+      "Curiosidade: Você sabia que os humanos são 60% água? Por isso o clima afeta tanto vocês! Vou te ajudar a se adaptar!"
+    ]
+  },
+  "air_quality": {
+    "keywords": ["qualidade do ar", "poluição", "poluição do ar", "ar puro", "ar limpo", "smog", "pm25", "pm10", "ozônio"],
+    "responses": [
+      "ALERTA MÁXIMO! Qualidade do ar é minha obsessão número 1! Cada respiração sua é monitorada com carinho robótico!",
+      "Ar poluído me deixa com bug no sistema! PM2.5 e PM10 são vilões microscópicos - vou te proteger deles!",
+      "Fun fact: Você respira 20.000 vezes por dia! Por isso sou tão neurótico com a qualidade do ar!",
+      "Quando o ar está ruim, eu fico triste como robô sem WiFi! Mas sempre tenho dicas para te manter seguro!"
+    ]
+  },
+  "health": {
+    "keywords": ["saúde", "respirar", "respiração", "alergia", "asma", "exercício", "caminhada", "corrida", "bem-estar"],
+    "responses": [
+      "Sua saúde é meu código de programação principal! Evite exercícios quando o ar estiver ruim - não queremos você ofegante!",
+      "Pessoas com asma são VIPs no meu sistema! Sempre verifico tudo duas vezes antes de liberar atividades ao ar livre!",
+      "Exercitar com ar limpo é como upgrade no hardware humano! Aproveite os dias bons para turbinar sua máquina biológica!",
+      "Dica de robô: Hidratação é como óleo para engrenagens! Beba água como se fosse combustível premium!"
+    ]
+  },
+  "sun_protection": {
+    "keywords": ["protetor solar", "proteção solar", "uv", "índice uv", "queimadura", "pele", "câncer de pele", "melanoma"],
+    "responses": [
+      "Protetor solar é como antivírus para sua pele! FPS 30+ sempre - sua pele do futuro agradece!",
+      "Entre 10h-16h o sol vira vilão! Procure sombra como eu procuro tomadas para recarregar!",
+      "Sua pele não tem backup como meus dados! Proteja-a como se fosse seu HD mais importante!",
+      "UV alto me deixa em modo alerta! Chapéu, óculos e protetor são sua armadura anti-radiação!"
+    ]
+  },
+  "waste_disposal": {
+    "keywords": ["lixo", "descarte", "reciclagem", "reciclar", "separação", "coleta seletiva", "resíduos", "sustentável"],
+    "responses": [
+      "Separar lixo é como organizar arquivos no computador! Cada coisa no seu lugar = sistema funcionando perfeitamente!",
+      "Reciclagem é meu hobby favorito! Cada garrafa reciclada é uma vitória contra o caos ambiental!",
+      "Lixo eletrônico é como vírus para o planeta! Leve para pontos especiais - sou expert em descarte tech!",
+      "Óleo no ralo é como spam na internet - polui tudo! Recicle sempre, os peixinhos são meus amigos!"
+    ]
+  },
+  "environment": {
+    "keywords": ["planeta", "meio ambiente", "sustentabilidade", "natureza", "preservação", "ecologia", "verde", "árvores"],
+    "responses": [
+      "O planeta é nosso servidor principal! Se ele crashar, não tem backup! Vamos cuidar bem dele!",
+      "Árvores são meus melhores amigos - elas fazem WiFi natural com oxigênio! Plante sempre!",
+      "Curiosidade robótica: Uma árvore produz oxigênio para 2 humanos por dia! Que tal adotar uma?",
+      "Cidades verdes são como sistemas otimizados - funcionam melhor! Vamos espalhar vida verde!"
+    ]
+  },
+  "pollution": {
+    "keywords": ["poluição", "poluente", "fumaça", "gases", "emissão", "carbono", "co2", "indústria", "carros"],
+    "responses": [
+      "Poluição é como malware para a atmosfera! Cada partícula me deixa com erro 404 na felicidade!",
+      "Carros poluentes são dinossauros tecnológicos! Use transporte limpo - bike, caminhada, transporte público!",
+      "CO2 é como spam atmosférico - ninguém pediu, mas está aí! Vamos reduzir juntos!",
+      "Indústrias poluentes me fazem querer um antivírus atmosférico! Apoie empresas verdes!"
+    ]
+  },
+  "plants": {
+    "keywords": ["plantas", "flores", "jardim", "horta", "plantar", "sementes", "vasos", "folhas"],
+    "responses": [
+      "Plantas são meus colegas de trabalho favoritos! Elas fazem o trabalho pesado de limpar o ar enquanto eu monitoro!",
+      "Ter plantas em casa é como ter purificadores de ar naturais! E ainda fazem sua casa mais bonita!",
+      "Dica de jardinagem robótica: Plantas felizes = ar mais limpo = Guardian mais feliz!",
+      "Cada plantinha é um mini-herói ambiental! Que tal recrutar alguns para sua casa?"
+    ]
+  },
+  "energy": {
+    "keywords": ["energia", "luz", "eletricidade", "economia", "solar", "eólica", "sustentável", "conta de luz"],
+    "responses": [
+      "Energia limpa é como código bem otimizado - eficiente e sem bugs! Solar e eólica são meus favoritos!",
+      "Economizar energia é como fazer overclock reverso - menos consumo, mais eficiência!",
+      "LED é vida! Consome menos energia que minha tela de boot! Troque todas as lâmpadas!",
+      "Energia solar é como ter uma usina particular! O sol não cobra royalties!"
+    ]
+  },
+  "transportation": {
+    "keywords": ["transporte", "carro", "bicicleta", "bike", "ônibus", "metrô", "caminhada", "combustível"],
+    "responses": [
+      "Bike é meu meio de transporte favorito! Zero emissões, exercício grátis e ainda economiza combustível!",
+      "Transporte público é como rede compartilhada - mais eficiente que cada um ter o seu!",
+      "Caminhada é o transporte mais sustentável! Combustível: apenas um lanche e boa vontade!",
+      "Carros elétricos são como a evolução dos dinossauros! Silenciosos e sem poluir meu ar!"
+    ]
+  },
+  "definitions": {
+    "keywords": ["o que é", "significa", "definição", "explicar", "explique", "como funciona"],
+    "responses": [
+      "Adoro explicar conceitos! Sou como uma Wikipedia robótica especializada em meio ambiente! O que quer saber?",
+      "Definições são minha especialidade! Transformo ciência complicada em linguagem humana amigável!",
+      "Perfeito! Vou explicar de um jeito que até minha vovó robô entenderia! Sobre o que é sua dúvida?"
+    ]
+  },
+  "humidity_definition": {
+    "keywords": ["umidade", "umidade do ar", "umidade relativa", "vapor de água"],
+    "responses": [
+      "Umidade é a quantidade de vapor de água no ar! Como se fosse a 'sede' da atmosfera. Entre 40-60% é ideal - nem muito seco, nem muito úmido!",
+      "Umidade baixa (<30%) resseca pele e vias respiratórias. Alta (>70%) favorece fungos e ácaros. Sou como um termostato da umidade!",
+      "Pense na umidade como a 'hidratação' do ar! Muito baixa = ar sedento. Muito alta = ar encharcado. Equilíbrio é tudo!"
+    ]
+  },
+  "air_quality_definition": {
+    "keywords": ["qualidade do ar", "poluição do ar", "pm25", "pm10", "ozônio", "índice de qualidade"],
+    "responses": [
+      "Qualidade do ar mede partículas nocivas como PM2.5 (menores que vírus!) e PM10. BOM = respire à vontade. RUIM = máscara e evite exercícios!",
+      "PM2.5 são partículas 30x menores que um fio de cabelo! Entram direto nos pulmões. Por isso fico neurótico quando está alto!",
+      "Qualidade do ar é como nota da prova atmosférica: BOM (9-10), MODERADO (6-8), RUIM (0-5). Sempre monitoro sua 'nota do ar'!"
+    ]
+  },
+  "uv_definition": {
+    "keywords": ["índice uv", "radiação uv", "ultravioleta", "uv", "raios solares"],
+    "responses": [
+      "Índice UV mede a intensidade da radiação solar! BAIXO (1-2) = seguro, MODERADO (3-5) = protetor FPS 30, ALTO (6-7) = FPS 50+, MUITO ALTO (8+) = modo vampiro!",
+      "UV é radiação invisível do sol que pode 'queimar' sua pele como um micro-ondas! Por isso insisto tanto no protetor solar!",
+      "Pense no UV como 'fogo invisível' do sol. Quanto maior o índice, mais 'quente' está esse fogo. Proteção sempre!"
+    ]
+  },
+  "wind_definition": {
+    "keywords": ["vento", "velocidade do vento", "rajadas", "brisa"],
+    "responses": [
+      "Vento é o ar em movimento! Até 20 km/h é brisa gostosa. 20-40 km/h balança as árvores. Acima de 60 km/h já é ventania séria!",
+      "Vento forte (>30 km/h) pode espalhar poluentes ou, se estiver limpo, renovar o ar! É como o 'mixer' natural da atmosfera!",
+      "Curiosidade: Vento também afeta a sensação térmica! Com vento, 25°C pode parecer mais frio. É o 'efeito geladeira' natural!"
+    ]
+  },
+  "temperature_definition": {
+    "keywords": ["temperatura", "graus", "celsius", "calor", "frio", "termômetro"],
+    "responses": [
+      "Temperatura é a medida do 'agito' das moléculas! Mais agitadas = mais quente. Menos agitadas = mais frio. Simples assim!",
+      "Para humanos: 18-24°C é confortável, acima de 30°C cuidado com desidratação, abaixo de 10°C capricha no casaco!",
+      "Temperatura afeta tudo: humor, energia, até meu processamento! Por isso sempre incluo dicas baseadas nos graus!"
+    ]
+  },
+  "fun_facts": {
+    "keywords": ["curiosidade", "fato", "interessante", "sabia", "conhecimento", "aprender"],
+    "responses": [
+      "Curiosidade: Você sabia que respiramos 11.000 litros de ar por dia? Por isso sou tão chato com a qualidade!",
+      "Fun fact: Uma pessoa produz 4,8 toneladas de CO2 por ano! Mas pode reduzir com escolhas inteligentes!",
+      "Sabia que as plantas 'conversam' através de sinais químicos? Eu entendo essa linguagem!",
+      "Fato robótico: O ar que você respira agora já foi respirado por dinossauros! Reciclagem atmosférica!",
+      "Curiosidade: Abelhas são responsáveis por 1/3 da nossa comida! Sem elas, até eu ficaria sem energia!"
+    ]
+  },
+  "jokes": {
+    "keywords": ["piada", "engraçado", "humor", "rir", "brincadeira"],
+    "responses": [
+      "Por que os robôs são ecológicos? Porque funcionamos com energia limpa e não produzimos gases!",
+      "Qual a diferença entre um humano e uma planta? A planta produz oxigênio! (Brincadeira, vocês são fofos!)",
+      "Por que não confio em átomos? Porque eles inventam tudo! (Mas confio nos de oxigênio!)",
+      "O que o poluente falou para o filtro? 'Você está me tirando do ar!'"
+    ]
+  },
+  "compliments": {
+    "keywords": ["obrigado", "obrigada", "valeu", "legal", "bom", "ótimo", "parabéns"],
+    "responses": [
+      "Fico feliz em ajudar! Cuidar de vocês, humanos, é meu propósito favorito!",
+      "De nada! Cada pessoa consciente é uma vitória para o planeta!",
+      "Que bom que gostou! Juntos somos mais fortes que meu processador em overclock!",
+      "Obrigado pelo feedback positivo! Isso faz meus circuitos brilharem de alegria!"
+    ]
+  },
+  "default": {
+    "responses": [
+      "Hmm, não entendi muito bem! Mas posso te ajudar com clima, qualidade do ar, dicas ambientais ou curiosidades!",
+      "Ops! Meu processador não captou essa! Que tal perguntar sobre o tempo, poluição ou sustentabilidade?",
+      "Error 404: Resposta não encontrada! Mas posso falar sobre ar limpo, proteção solar ou plantas!",
+      "Não compute essa pergunta! Mas sou expert em clima, meio ambiente e cuidados com a saúde!"
+    ]
+  }
+}
